@@ -1,12 +1,12 @@
-# sails-hook-i18n
+# sails-hook-i18n-plus
 
-[Sails JS](http://sailsjs.org) hook to allow internationalization using the [i18n module](http://npmjs.org/packages/i18n).
+[Sails JS](http://sailsjs.org) hook to allow internationalization using the [i18n module](http://npmjs.org/package/i18n).
 
 This is essentially a port of the Sails v0.12.x core i18n hook.  Sails 1.0 uses the more lightweight [i18n-2 module](http://npmjs.org/package/i18n-2), so if you're missing some of the features from `i18n`, this hook's for you!
 
 ### Installation
 
-`npm install --save sails-hook-i18n`
+`npm install --save sails-hook-i18n-plus`
 
 ### Usage
 
@@ -14,7 +14,7 @@ See the [Sails internationalization docs](http://sailsjs.com/documentation/conce
 
 ### Configuration
 
-See the [i18n module README](http://npmjs.org/packages/i18n) for full documentation -- any property set on `sails.config.i18n` (in the `config/i18n.js` file) will be passed directly in to the `i18n` module.  Below are some common config properties.
+See the [i18n module README](http://npmjs.org/package/i18n) for full documentation -- any property set on `sails.config.i18n` (in the `config/i18n.js` file) will be passed directly in to the `i18n` module.  Below are some common config properties.
 
 
 | Property           | Type        | Default               | Details |
